@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: darkslategrey;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+
+}
+
+.container{
+    margin: 0 auto;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+ h1{
+    margin-bottom: 10px;
+}
+
+.container label, button, input, ul{
+    margin: 5px;
+}
+
+button{
+    padding: 2px 10px;
+}
+
+#risultati{
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+ul{
+    color: orange;
+}
+
+ul li{
+    color: white;
+}
+
